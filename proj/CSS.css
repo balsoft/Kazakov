@@ -1,0 +1,150 @@
+html
+{
+	height:100%;
+	font-size:20px;
+}
+
+
+#header, footer
+{
+	width:98%;
+	border-radius:5px;
+	padding:1%;
+	float:left;
+}
+#header
+{
+	background-image: url(../img/red_ambush_small.jpg);
+}
+footer
+{
+	background-image:url(../img/i.jpg);
+	margin-top:2px;
+	border-top:2px solid silver;
+	font-size: 20px;
+	color:#B200FF;
+	margin-bottom:0px;
+}
+
+body
+{
+	background-color:#eee;
+	width:100%;
+	height:100%;
+	color:#003AB5;
+	background-image:url(../img/abstract-art-19.jpg);
+	font-size:1em;
+	font-family:"Times New Roman", sans-serif;
+	
+	
+}
+a
+{
+	color:#FF8B32;
+	text-decoration:none;
+	transition:all.6s ease;
+}
+a:hover
+{
+	color:#00CC0A;
+	text-decoration:none;
+	transition:all.6s ease;
+}
+a:active{color:#0021FF}
+
+:selection
+{
+	background:#8CF800;
+	color:#F7A42B;
+}
+
+img
+{
+	max-width:100%;
+	height:auto;
+	width:auto\9;
+}
+
+h1
+{
+	color:#CE5242;
+	font-size:50px;
+}
+
+p
+{
+	color:#5468FF;
+	font-size:24px;
+	text-indent: 20px;
+}
+
+#page-wrap:after
+{
+	content:"";
+	display:block;
+}
+
+footer, #page-wrap:after
+{
+	height:20px;
+	
+}
+
+#page-wrap
+{
+	min-height:96%;
+	
+}
+
+center
+{
+	padding:5px;
+	margin:5px;
+}
+
+em{
+	 float:right
+}
+
+article a
+{
+	font-size:25px;
+	color:#AA00FF;
+}
+
+img
+{
+	margin:10px;
+	border: 1px solid silver;
+}
+
+#d
+{
+	width:90%;
+	border:2px solid red;
+	border-radius:10px;
+	margin-left:5%;
+	margin:right:5%;
+	margin-bottom:2%;
+	padding:10px;
+	float:left;
+	background-image: url(../img/mural-on-indian-red-ground.jpg);
+}
+
+.d1
+{
+	width:90%;
+	border:2px solid red;
+	border-radius:10px;
+	margin-left:5%;
+	margin:right:5%;
+	margin-bottom:2%;
+	padding:10px;
+	float:left;
+	background-image: url(../img/mural-on-indian-red-ground.jpg);
+}
+
+h2
+{
+	border-bottom:1px solid #5468FF;
+}
