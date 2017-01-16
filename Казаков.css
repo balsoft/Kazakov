@@ -11,14 +11,14 @@ html
 }
 
 
-#header, footer
+header, footer
 {
-	width:98%;
+	width:97%;
 	border-radius:5px;
 	padding:1%;
 	float:left;
 }
-#header
+header
 {
 	background-image: url(img/red_ambush_small.jpg);
 }
@@ -30,6 +30,8 @@ footer
 	font-size: 20px;
 	color:#B200FF;
 	margin-bottom:0px;
+  bottom:0px;
+  position: fixed;
 }
 
 body
@@ -38,11 +40,11 @@ body
 	width:100%;
 	height:100%;
 	color:#003AB5;
-	background-image:url(img/abstract-art-19.jpg);
+	background-image: url("img/background.jpg");
+  background-repeat:repeat-y;
+  background-size: cover;
 	font-size:1em;
-	font-family:"Times New Roman", sans-serif;
-	
-	
+	font-family:"Bodoni", sans-serif;
 }
 a
 {
@@ -93,13 +95,13 @@ p
 footer, #page-wrap:after
 {
 	height:20px;
-	
+
 }
 
 #page-wrap
 {
 	min-height:96%;
-	
+
 }
 
 #kazakov
@@ -109,6 +111,7 @@ footer, #page-wrap:after
 	border:1px solid #CB00FF;
 	border-radius:5px;
 	float:left;
+  width: 98.5%
 }
 
 #kazakov hr
@@ -130,7 +133,9 @@ footer, #page-wrap:after
 	float:left;
 	width:100%;
 	margin-top:10px;
-	
+  flex-wrap: wrap;
+  position: absolute;
+  padding-top: 150px;
 }
 
 .articles
@@ -159,7 +164,30 @@ center
 	padding:5px;
 	margin:5px;
 }
-
+.column{
+  flex-direction: column;
+  display: flex;
+  align-content:stretch;
+}
+.column-top{
+  width:138px;
+}
+.column-middle{
+  height:1200px;
+  width:70px;
+  padding-left: 35.5px;
+}
+.column-bottom{
+  top:-2;
+  width: 119px;
+  padding-left: 10px;
+}
+#column-right{
+  float: right;
+}
+#column-left{
+  float:left;
+}
 em{
 	 float:right
 }
@@ -175,4 +203,3 @@ article a
 	margin:15px;
 	padding:10px;
 }
-
