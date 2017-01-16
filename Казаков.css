@@ -106,7 +106,7 @@ footer, #page-wrap:after
 
 #kazakov
 {
-	background-image:url(img/mural-on-indian-red-ground.jpg);
+  background-color: white;
 	padding:10px;
 	border:1px solid #CB00FF;
 	border-radius:5px;
@@ -131,22 +131,19 @@ footer, #page-wrap:after
 #wrapper
 {
 	float:left;
-	width:100%;
+	width:86%;
+  padding-left: 7%;
 	margin-top:10px;
   flex-wrap: wrap;
   position: absolute;
   padding-top: 150px;
 }
 
-.articles
-{
-	float:left;
-	width:90%;
-	margin-left:5%;
-	margin-right:5%;
+article{
+  padding-left: 2%;
+  width: 96%;
 }
-
-article
+.flex-item
 {
 	float:left;
 	width:28%;
@@ -173,7 +170,7 @@ center
   width:138px;
 }
 .column-middle{
-  height:1200px;
+  height:1800px;
   width:70px;
   padding-left: 35.5px;
 }
@@ -187,6 +184,9 @@ center
 }
 #column-left{
   float:left;
+}
+#fronton{
+  width: 100%;
 }
 em{
 	 float:right
