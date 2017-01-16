@@ -148,3 +148,27 @@ h2
 {
 	border-bottom:1px solid #5468FF;
 }
+.column{
+  flex-direction: column;
+  display: flex;
+  align-content:stretch;
+}
+.column-top{
+  width:138px;
+}
+.column-middle{
+  height:1200px;
+  width:70px;
+  padding-left: 35.5px;
+}
+.column-bottom{
+  top:-2;
+  width: 119px;
+  padding-left: 10px;
+}
+#column-right{
+  float: right;
+}
+#column-left{
+  float:left;
+}
