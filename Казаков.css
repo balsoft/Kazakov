@@ -79,7 +79,7 @@ h1
 	font-size:50px;
 }
 
-p
+#kazakov p
 {
 	color:#D50400;
 	font-size:20px;
@@ -203,8 +203,8 @@ article a
 	margin:15px;
 	padding:10px;
 }
-#bord p
+p
 {
-color:#231FAD;
+	color:#231FAD;
 	font-size:25px;
 }
