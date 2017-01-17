@@ -1,3 +1,4 @@
-var a=document.getElementsByClassName('column-middle');
-a.style.height ="1280px";
-alert(a.style.height);
+var a = document.getElementsByClassName('column-middle'),
+n=a[0].style;
+
+n.height="1280px";
