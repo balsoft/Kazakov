@@ -161,15 +161,11 @@ center
 	padding:5px;
 	margin:5px;
 }
-<script>
-var column_height=10;
-$(".column").css('height', column_height);
-
-</script>
 .column{
   flex-direction: column;
   display: flex;
   align-content:stretch;
+
 }
 .column-top{
   width:138px;
