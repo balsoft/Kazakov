@@ -205,6 +205,10 @@ article a
 }
 #bord
 {
-border:2px solid #AF00AA;
+border:1px solid #AF00AA;
+border-radius:5px
+}
+#bord p
+{
 color:#231FAD;
 }
