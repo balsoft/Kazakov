@@ -1,3 +1,3 @@
-var a=document.getElementByClass('column-middle');
+var a=document.getElementByClassName('column-middle');
 a.style.height ="2000px";
 alert(a.style.height);
