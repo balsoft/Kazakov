@@ -203,12 +203,8 @@ article a
 	margin:15px;
 	padding:10px;
 }
-#bord
-{
-border:1px solid #AF00AA;
-border-radius:5px
-}
 #bord p
 {
 color:#231FAD;
+	font-size:25px;
 }
