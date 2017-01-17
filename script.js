@@ -1,9 +1,3 @@
-(function()
- {
-  var s= document.getElementsByClass('column-middle');
-  style=.column-middle[0].stile;
-  style.height="1280px";
-
-
-
-})();
+var a=document.getElementById('i');
+a.style.height ="2000px";
+alert(a.style.height);
