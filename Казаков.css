@@ -170,6 +170,10 @@ center
   width:100%;
 }
 .column-middle{
+  /*
+  TODO:
+    Сделать картинку с тенью и объемом
+  */
   height:1900px;
   width:51%;
   padding-left: 25%;
