@@ -164,7 +164,7 @@ center
   flex-direction: column;
   display: flex;
   align-content:stretch;
-
+  width:100px;
 }
 .column-top{
   width:100%;
@@ -173,8 +173,6 @@ center
   height:1900px;
   width:51%;
   padding-left: 25%;
-  width:70px;
-  padding-left: 35.5px;
 }
 .column-bottom{
   top:-2;
