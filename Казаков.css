@@ -110,7 +110,7 @@ footer, #page-wrap:after
 	border:1px solid #CB00FF;
 	border-radius:5px;
 	float:left;
-  width: 98.5%
+  width: 98.5%;
 }
 
 #kazakov hr
@@ -130,12 +130,12 @@ footer, #page-wrap:after
 #wrapper
 {
 	float:left;
-	width:86%;
-  padding-left: 7%;
-	margin-top:10px;
+	width:80%;
+  padding-left: 8%;
   flex-wrap: wrap;
   position: absolute;
   padding-top: 150px;
+  margin-top: 40px;
 }
 
 article{
