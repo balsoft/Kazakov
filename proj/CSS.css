@@ -35,8 +35,8 @@ body
 	background-image:url(../img/abstract-art-19.jpg);
 	font-size:1em;
 	font-family:"Times New Roman", sans-serif;
-	
-	
+
+
 }
 a
 {
@@ -87,13 +87,13 @@ p
 footer, #page-wrap:after
 {
 	height:20px;
-	
+
 }
 
 #page-wrap
 {
 	min-height:96%;
-	
+	position: absolute;
 }
 
 center
