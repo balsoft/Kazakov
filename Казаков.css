@@ -41,7 +41,6 @@ body
 	color:#003AB5;
 	background-image: url("img/background.jpg");
   background-repeat:repeat-y;
-  background-size: cover;
 	font-size:1em;
 	font-family:"Bodoni", sans-serif;
 }
