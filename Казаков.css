@@ -38,8 +38,7 @@ body {
 	background-image  : url("img/background.jpg");
 	background-color  : #eee;
 	background-repeat : repeat-y;
-	font-family       : "Bodoni",
-	                    sans-serif;
+	font-family       : "Bodoni"
 	font-size         : 1em;
 }
 
@@ -120,8 +119,8 @@ footer {
 	position     : absolute;
 	width        : 80%;
 	float        : left;
-	margin-top   : 40px;
-	padding-top  : 150px;
+	margin-top   : 190px;
+    margin-bottom: 40px;
 	padding-left : 8%;
 	flex-wrap    : wrap;
 }
