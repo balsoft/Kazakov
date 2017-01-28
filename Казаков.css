@@ -161,7 +161,7 @@ center {
 .column-middle {
 	/* TODO: Сделать картинку с тенью и объемом */
 	width        : 51%;
-	height       : 1900px;
+	height       : 100%;
 	padding-left : 25%;
 }
 
