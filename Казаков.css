@@ -36,7 +36,7 @@ body {
 	height            : 100%;
 	color             : #003AB5;
 	background-image  : url("img/background.jpg");
-	background-repeat :round;
+	background-repeat : round;
 	font-family       : "Bodoni";
 	font-size         : 1em;
 }
@@ -129,16 +129,16 @@ article {
 }
 
 .flex-item {
-	box-sizing       : border-box;
-	width            : 28%;
-	min-height       : 200px;
-	float            : left;
-	margin-right     : 2.5%;
-	margin-bottom    : 40px;
-	margin-left      : 2.5%;
-	border           : 2px solid #0083FF;
-	border-radius    : 10px;
-	background-image : url(img/fon1.png);
+	box-sizing          : border-box;
+	width               : 28%;
+	min-height          : 200px;
+	float               : left;
+	margin-right        : 2.5%;
+	margin-bottom       : 40px;
+	margin-left         : 2.5%;
+	border              : 2px solid #0083FF;
+	border-radius       : 10px;
+	background-color    : hsla(0,0%,96%,0.6);
 }
 
 center {
