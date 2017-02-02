@@ -20,8 +20,9 @@ header {
 header {
 	background-image : url(img/header.jpg);
 }
+
 #header{
-	background-image: url('../img/fronton-clean.png');
+	background-image: url('img/fronton-clean.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	padding-bottom: 1%;
