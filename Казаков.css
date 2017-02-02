@@ -42,24 +42,24 @@ body {
 }
 
 a {
-	color           : #FF8B32;
+	color           : #1476b6;
 	text-decoration : none;
 	transition      : all.6s ease;
 }
 
 a:hover {
-	color           : #00CC0A;
+	color           : #0DAA1F;
 	text-decoration : none;
 	transition      : all.6s ease;
 }
 
 a:active {
-	color : #0021FF;
+	color : #D01950;
 }
 
 ::selection {
-	color      : #F7A42B;
-	background : #8CF800;
+	color      : #E4347A;
+	background : #99E9EB;
 }
 
 img {
