@@ -158,16 +158,14 @@ center {
 }
 
 .column-middle {
-	/* todo 15 (general) +2: Поправить изображение */
-	width        : 51%;
+	width        : 51.4%;
 	height       : 100%;
-	padding-left : 25%;
+	padding-left : 25.5%;
 }
 
 .column-bottom {
-	top          : -2;
-	width        : 90%;
-	padding-left : 5%;
+	width        : 87%;
+	padding-left : 6.6%;
 }
 
 #column-right {
